@@ -1,6 +1,6 @@
-/*
-* Ultrasonic Sensor HC-SR04 interfacing with Arduino.
-*/
+// Ultrasonic Sensor HC-SR04 interfacing with Arduino.
+// you can see the connectionf from - https://www.circuito.io/app?components=512,11021,13959
+
 // defining the pins
 const int trigPin = 9;
 const int echoPin = 10;
