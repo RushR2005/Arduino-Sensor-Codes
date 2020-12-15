@@ -1,9 +1,9 @@
 // Ultrasonic Sensor HC-SR04 interfacing with Arduino.
-// you can see the connectionf from - https://www.circuito.io/app?components=512,11021,13959
+// you can see the connections from this link - https://www.circuito.io/app?components=512,11021,13959
 
 // defining the pins
-const int trigPin = 9;
-const int echoPin = 10;
+const int trigPin = 3;
+const int echoPin = 2;
 // defining variables
 long duration;
 int distance;
@@ -24,7 +24,8 @@ digitalWrite(trigPin, LOW);
 duration = pulseIn(echoPin, HIGH);
 // Calculating the distance
 distance= duration*0.034/2;
-// Prints the distance on the Serial Monitor
+// Prints the distance on the Serial Monitor in centimeteres
 Serial.print("Distance: ");
-Serial.println(distance);
+Serial.print(distance);
+Serial.println(" cm");
 }
