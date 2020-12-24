@@ -1,2 +1,2 @@
 # Arduino-Beginner-Codes
-arduino mini codes
+arduino beginner codes
