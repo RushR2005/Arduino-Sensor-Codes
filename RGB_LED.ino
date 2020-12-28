@@ -1,6 +1,8 @@
-int red_light_pin= 11;
+// circuit diagram - https://www.tinkercad.com/things/djXeoY5NZM0
+
+int red_light_pin= 9;
 int green_light_pin = 10;
-int blue_light_pin = 9;
+int blue_light_pin = 11;
 void setup() {
   pinMode(red_light_pin, OUTPUT);
   pinMode(green_light_pin, OUTPUT);
@@ -31,8 +33,8 @@ void loop() {
   delay(1000);
 
 // more color codes on https://www.rapidtables.com/web/color/RGB_Color.html
-}
 
+}
 void RGB_color(int red_light_value, int green_light_value, int blue_light_value)
  {
   analogWrite(red_light_pin, red_light_value);
