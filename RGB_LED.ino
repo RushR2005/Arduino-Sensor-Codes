@@ -23,7 +23,7 @@ void loop() {
   delay(1000);
   RGB_color(255, 255, 255); // White
   delay(1000);
-  RGB_color(75,0,130); // Indigo
+  RGB_color(128,0,128); // Purple
   delay(1000);
   RGB_color(255,165,0); // Orange
   delay(1000);
