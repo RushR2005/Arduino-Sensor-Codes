@@ -23,7 +23,16 @@ void loop() {
   delay(1000);
   RGB_color(255, 255, 255); // White
   delay(1000);
+  RGB_color(75,0,130); // Indigo
+  delay(1000);
+  RGB_color(255,165,0); // Orange
+  delay(1000);
+  RGB_color(139,69,19); // Brown
+  delay(1000);
+
+// more color codes on https://www.rapidtables.com/web/color/RGB_Color.html
 }
+
 void RGB_color(int red_light_value, int green_light_value, int blue_light_value)
  {
   analogWrite(red_light_pin, red_light_value);
