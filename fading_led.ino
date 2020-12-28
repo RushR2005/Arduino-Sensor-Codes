@@ -21,5 +21,5 @@ void loop() {
    }
    // wait for 30 milliseconds to see the dimming effect
    delay(25); 
-   // you can make it a discolight by setting delay(1)
+   // you can make it a discolight by setting delay(1), it would be like blink
 }
