@@ -1,3 +1,5 @@
+// PIR Sensor code, it detects motion
+
 #define pirPin 2
 int calibrationTime = 30;
 long unsigned int lowIn;
